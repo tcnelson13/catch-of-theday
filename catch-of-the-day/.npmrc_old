@@ -1,0 +1,12 @@
+// .npmrc file in tnelson directory screws up the install here and causes errors
+
+@svgr:registry=https://registry.npmjs.org
+@csstools:registry=https://registry.npmjs.org
+@mrmlnc:registry=https://registry.npmjs.org
+@webassemblyjs:registry=https://registry.npmjs.org
+@nodelib:registry=https://registry.npmjs.org
+@firebase:registry=https://registry.npmjs.org
+@zeit:registry=https://registry.npmjs.org
+@jest:registry=https://registry.npmjs.org
+@typescript-eslint:registry=https://registry.npmjs.org
+@grpc:registry=https://registry.npmjs.org

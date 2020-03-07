@@ -6,6 +6,44 @@
 */
 
 .order-enter
+  transform translatex(-120%) //rotate(0)
+  transition 0.5s
+  max-height 0
+  padding 0 !important
+  &.order-enter-active
+    max-height 60px
+    transform translatex(0) //rotate(1440deg)
+    padding 2rem 0 !important
+
+.order-exit
+  transition 0.5s
+  transform translatex(0)
+  &.order-exit-active
+    transform translatex(120%)
+    padding 0
+
+.count-enter
+  background red
+  transition 0.5s
+  transform translatey(100%)
+  &.count-enter-active
+    background yellow
+    transform translatey(0)
+
+
+.count-exit
+  background black
+  transform translatey(0)
+  transition 0.5s
+  position absolute
+  left 0
+  bottom 0
+  &.count-exit-active
+    background green
+    transform translatey(-100%)
+
+/*
+.order-enter
   transform: translateX(-120%)
   transition 0.5s
   max-height: 0
@@ -41,3 +79,4 @@
   &.count-exit-active
     background green
     transform translateY(-100%) scale(3)
+*/
